@@ -1,4 +1,14 @@
+- Short History
 2002 Microsoft -> Webforms
 2009 Microsoft -> .NET MVC (on top Webforms
 2016 ASP .NET Core ( not tied to Windows )
 2018 .NET Core 2.0
+
+*) CONCEPTS
+- Middleware : Middleware is a series of components that are executed in the request-response pipeline. Each middleware component performs a specific function, such as authentication, logging, routing, etc. These components are arranged in a pipeline and process the HTTP request as it flows through the pipeline, allowing developers to add, remove, or reorder components based on their application's requirements.
+Middleware in ASP.NET Core provides a flexible and modular way to structure the processing of HTTP requests and responses in web applications.
+
+- Pipeline : A pipeline refers to a series of processing stages through which data or tasks are passed. Each stage in the pipeline performs a specific function, and the output of one stage becomes the input for the next stage. 
+- Model : shape of the data ( tables, classes )
+- View : the user interface
+- Controller : handle the user request and it will act as an user interfcace between Model and View
